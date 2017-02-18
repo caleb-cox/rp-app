@@ -1,0 +1,29 @@
+{
+  "name": "rp-app",
+  "version": "0.0.0",
+  "description": "A single-page web app that includes various D&D tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calebcox725/rp-app.git"
+  },
+  "author": "Caleb Cox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/calebcox725/rp-app/issues"
+  },
+  "homepage": "https://github.com/calebcox725/rp-app#readme",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  }
+}
