@@ -6,15 +6,12 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
-  resolve: {
-    extensions: ['', '.js', '.jsx', '.json']
-  },
   module: {
     loaders: [
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
-        loaders: ["babel-loader"]
+        loader: "babel-loader"
       }
     ]
   }

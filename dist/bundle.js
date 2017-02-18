@@ -70,8 +70,7 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-console.log('hi');
-
+throw new Error("Module build failed: Error: Couldn't find preset \"env\" relative to directory \"/Users/calebcox/Development/rp-app\"\n    at /Users/calebcox/Development/rp-app/node_modules/babel-core/lib/transformation/file/options/option-manager.js:293:19\n    at Array.map (native)\n    at OptionManager.resolvePresets (/Users/calebcox/Development/rp-app/node_modules/babel-core/lib/transformation/file/options/option-manager.js:275:20)\n    at OptionManager.mergePresets (/Users/calebcox/Development/rp-app/node_modules/babel-core/lib/transformation/file/options/option-manager.js:264:10)\n    at OptionManager.mergeOptions (/Users/calebcox/Development/rp-app/node_modules/babel-core/lib/transformation/file/options/option-manager.js:249:14)\n    at OptionManager.init (/Users/calebcox/Development/rp-app/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)\n    at File.initOptions (/Users/calebcox/Development/rp-app/node_modules/babel-core/lib/transformation/file/index.js:216:65)\n    at new File (/Users/calebcox/Development/rp-app/node_modules/babel-core/lib/transformation/file/index.js:139:24)\n    at Pipeline.transform (/Users/calebcox/Development/rp-app/node_modules/babel-core/lib/transformation/pipeline.js:46:16)\n    at transpile (/Users/calebcox/Development/rp-app/node_modules/babel-loader/lib/index.js:46:20)\n    at Object.module.exports (/Users/calebcox/Development/rp-app/node_modules/babel-loader/lib/index.js:134:16)");
 
 /***/ })
 /******/ ]);
